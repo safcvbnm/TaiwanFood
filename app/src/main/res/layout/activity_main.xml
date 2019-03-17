@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <GridView
+            android:id="@+id/foodShow"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:numColumns="4" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/menu" />
+
+        <Button
+            android:text="結算"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/show" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="319dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="300dp"
+            app:srcCompat="@drawable/food1" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
